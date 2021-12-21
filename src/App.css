@@ -36,3 +36,209 @@
     transform: rotate(360deg);
   }
 }
+
+.chapter {
+  text-decoration: none;
+  color: black;
+}
+
+.chapter-admin {
+  text-decoration: none;
+  color: black;
+}
+
+.card  a {
+  text-decoration: none;
+  color: black;
+}
+.card  a:hover {
+  color: orange;
+}
+
+.card  span:hover {
+  color: gold;
+}
+
+.card {
+  width: 12rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+
+.orange {
+  color: #89B5AF;
+}
+.grey {
+  color: grey;
+}
+.blue {
+  color: #DED9C4;
+}
+
+.card-text {
+  font-size: 1.5rem;
+}
+.card-title {
+  display: flex;
+  padding-top: 3rem;
+  align-items: flex-end;
+  margin-bottom: -2rem;
+  margin-top: -2rem;
+}
+
+.card img {
+  max-height: 7rem;
+}
+
+.task-contents {
+  width: 30vw;
+  height: 100vh;
+  margin-top: 7rem;
+}
+.task-contents a {
+  text-decoration: none;
+}
+
+.add-form {
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+}
+
+.fa-folder-open {
+  font-size: 5rem;
+}
+
+.task-card {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.task-card-title {
+  margin-top: -1rem;
+}
+
+.card-text {
+  font-size: 1.2rem;
+}
+.card-date {
+  font-size: 0.8rem;
+  margin-bottom: -2rem;
+}
+
+.sidebar {
+  width: 22vw;
+  background-color: #5584AC;
+  margin-top: -3rem;
+  min-height: 100vh;
+}
+.sidebar img {
+  border-radius: 100%;
+}
+
+.main {
+  display: flex;
+  grid-gap: 2rem;
+}
+
+.side-task a {
+  color: black;
+  text-decoration: none;
+}
+
+.side-task a:hover {
+  color: orange;
+}
+
+.side-task {
+  display: grid;
+  justify-content: left;
+  margin-left: 1rem;
+}
+
+.active-star {
+  color: orange;
+}
+
+.header-sidebar {
+  display: flex;
+  justify-content: center;
+}
+
+.side-icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.addsional {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 2rem;
+  margin-top: -1rem;
+}
+
+.menu-vid {
+  background-color: #5584AC;
+}
+.menu-doc {
+  background-color: #F6F2D4;
+}
+.menu-links {
+  background-color: #95D1CC;
+}
+
+.menu {
+  height: 4.5rem;
+  display: grid;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+.menu a:hover {
+  opacity: 50%;
+}
+
+.links a{
+  text-decoration: none;
+  color: #282c34;
+}
+
+.links a:hover{
+  color: orange;
+}
+
+.home-admin {
+  width: 50vw;
+}
+
+.button-link {
+  display: flex;
+  grid-gap: 2rem;
+  margin-left: 2rem;
+}
+
+.add-task-form {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  grid-gap: 5rem;
+}
+
+.add-task-form label{
+  font-weight: 700;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+.search-form {
+  width: 50rem;
+}
+
